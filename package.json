@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "install": "npm i"
+    "watch": "script"
   },
   "repository": {
     "type": "git",
