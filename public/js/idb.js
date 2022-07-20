@@ -33,7 +33,7 @@ function saveRecord(record) {
 
 function uploadBudget() {
     // open a transaction on your pending db
-    const transaction = db.transaction(['new_budget'], 'rewrite');
+    const transaction = db.transaction(['new_budget'], 'readwrite');
 
     // access your pending object store
     const budgetObjectStore = transaction.objectStore('new_budget');
